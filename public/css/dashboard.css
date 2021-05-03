@@ -1,0 +1,17 @@
+#nav_close_mobile {
+    display: none;
+}
+
+
+@media screen and (max-width: 600px) {
+
+    #nav_dashboard {
+        position: absolute;
+        width: 50%;
+    }
+
+    #nav_close_mobile {
+        display: flex;
+    }
+    
+}
